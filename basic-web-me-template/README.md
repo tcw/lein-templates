@@ -1,11 +1,11 @@
-# lein-create-template
+# basic-web-me-template
 
 A Leiningen newnew template for a basic Leiningen web project
 
 ##Contains
 
-*routing   : Moustache
-*rendering : Enlive
+* routing   : Moustache
+* rendering : Enlive
 
 ##Setup
 

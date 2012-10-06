@@ -1,10 +1,10 @@
-# lein-create-template
+# basic-speclj-template
 
 A Leiningen newnew template for a basic leiningen project with speclj tests
 
 ##Contains
 
-*testing   : Speclj
+* testing   : Speclj
 
 ##Setup
 
@@ -12,7 +12,7 @@ This template requires Leiningen 2.0+
 
 Create a new template with (get pulled from clojars automatically)
 
-    $ lein new basic-speclj <new project name>
+    $ lein new basic-speclj-template <new project name>
    			
 ## Usage
 

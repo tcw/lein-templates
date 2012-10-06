@@ -9,5 +9,5 @@
                  [tvachon/enlive "1.0.2"]
                  [cheshire "2.0.4"]
                  [ring-json-params "0.1.3"]]
-  :profiles {:user {:plugins [[lein-ring "0.7.1"]]
+  :profiles {:dev {:plugins [[lein-ring "0.7.1"]]
                     :ring {:handler {{sanitized}}.core/web-app}}})

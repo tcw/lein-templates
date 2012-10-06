@@ -1,11 +1,11 @@
-# lein-create-template
+# basic-web-ch-template
 
 A Leiningen newnew template for a basic Leiningen web project 
 
 ##Contains
 
-*routing   : Compojure
-*rendering : Hiccup
+* routing   : Compojure
+* rendering : Hiccup
 
 ##Setup
 

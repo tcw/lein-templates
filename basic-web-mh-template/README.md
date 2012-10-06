@@ -1,11 +1,11 @@
-# lein-create-template
+# basic-web-mh-template
 
 A Leiningen newnew template for a basic Leiningen web project
 
 ##Contains
 
-*routing   : Moustache
-*rendering : Hiccup
+* routing   : Moustache
+* rendering : Hiccup
 
 ##Setup
 
