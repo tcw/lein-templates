@@ -1,4 +1,4 @@
-(ns {{sanitized}}.config
+(ns {{ns-name}}.config
   (:require [clojure.string :as string]))
 
 (defonce h2-mem-spec

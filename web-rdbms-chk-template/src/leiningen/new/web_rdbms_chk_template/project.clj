@@ -1,4 +1,4 @@
-(defproject {{sanitized}} "0.1.0-SNAPSHOT"
+(defproject {{ns-name}} "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
@@ -16,5 +16,5 @@
                                               com.sun.jdmk/jmxtools
                                               com.sun.jmx/jmxri]]]
   :profiles {:dev {:plugins [[lein-ring "0.7.1"]]
-                    :ring {:handler {{sanitized}}.core/app
-                           :init {{sanitized}}.bootstrap/create-test-data}}})
+                    :ring {:handler {{ns-name}}.core/app
+                           :init {{ns-name}}.bootstrap/create-test-data}}})

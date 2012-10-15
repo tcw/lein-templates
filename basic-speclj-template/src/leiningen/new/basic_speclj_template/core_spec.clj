@@ -1,7 +1,7 @@
-(ns {{sanitized}}.core-spec
+(ns {{ns-name}}.core-spec
 (:use
   [speclj.core]
-  [{{sanitized}}.core]))
+  [{{ns-name}}.core]))
 
 (describe "Say Hello"
 

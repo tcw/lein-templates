@@ -1,10 +1,10 @@
-(ns {{sanitized}}.core
+(ns {{ns-name}}.core
   (:use net.cgrand.moustache
         ring.middleware.file-info
         ring.middleware.resource
         ring.middleware.json-params)
   (:require [ring.util.response :as respond]
-            [{{sanitized}}.view :as view]))
+            [{{ns-name}}.view :as view]))
 
 (def web-app
   (app

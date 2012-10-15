@@ -1,4 +1,4 @@
-(ns {{sanitized}}.view
+(ns {{ns-name}}.view
   (:require [hiccup.core :as h]
             [hiccup.page :as ph]
             [hiccup.element :as elem])

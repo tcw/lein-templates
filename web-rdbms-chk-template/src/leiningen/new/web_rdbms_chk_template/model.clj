@@ -1,8 +1,8 @@
-(ns {{sanitized}}.model
+(ns {{ns-name}}.model
   (:use korma.core
         korma.db
         korma.config)
-  (:require [{{sanitized}}.config :as conf]))
+  (:require [{{ns-name}}.config :as conf]))
 
 (defdb korma-db conf/h2-mem-spec)
 

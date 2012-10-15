@@ -1,9 +1,9 @@
-(ns {{sanitized}}.core
+(ns {{ns-name}}.core
   (:use compojure.core
         ring.middleware.json-params)
   (:require [compojure.route :as route]
             [compojure.handler :as handler]
-            [{{sanitized}}.view :as view]))
+            [{{ns-name}}.view :as view]))
 
 (defroutes main-routes
   (GET "/" [] (view/index))

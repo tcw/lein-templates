@@ -1,4 +1,4 @@
-(defproject basic-web-mh-template/lein-template "0.1.0"
+(defproject basic-web-mh-template/lein-template "0.1.1"
   :description "A Leiningen newnew template for a basic Leiningen web project"
   :url "http://github.com/tcw/lein-templates"
   :license {:name "Eclipse Public License"

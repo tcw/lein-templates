@@ -1,4 +1,4 @@
-(defproject basic-speclj-template/lein-template "0.1.0"
+(defproject basic-speclj-template/lein-template "0.1.1"
   :description "A Leiningen newnew template for a basic leiningen project with speclj tests"
   :url "http://github.com/tcw/lein-templates"
   :license {:name "Eclipse Public License"

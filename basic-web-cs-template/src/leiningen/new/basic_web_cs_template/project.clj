@@ -1,4 +1,4 @@
-(defproject {{sanitized}} "0.1.0-SNAPSHOT"
+(defproject {{ns-name}} "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
@@ -10,4 +10,4 @@
                  [cheshire "2.0.4"]
                  [ring-json-params "0.1.3"]]
   :profiles {:dev {:plugins [[lein-ring "0.7.1"]]
-                    :ring {:handler {{sanitized}}.core/app}}})
+                    :ring {:handler {{ns-name}}.core/app}}})

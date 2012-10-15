@@ -1,10 +1,10 @@
-(ns {{sanitized}}.core
+(ns {{ns-name}}.core
   (:use compojure.core
         ring.middleware.json-params)
   (:require [compojure.route :as route]
             [compojure.handler :as handler]
-            [{{sanitized}}.view :as view]
-            [{{sanitized}}.model :as model]))
+            [{{ns-name}}.view :as view]
+            [{{ns-name}}.model :as model]))
 
 (defroutes main-routes
   (GET "/" [] (view/index (model/get-all-books)))

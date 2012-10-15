@@ -1,4 +1,4 @@
-(ns {{sanitized}}.view
+(ns {{ns-name}}.view
   (:use net.cgrand.enlive-html))
 
 (deftemplate t1 "index.html" [hdr] [:h1] (content hdr))

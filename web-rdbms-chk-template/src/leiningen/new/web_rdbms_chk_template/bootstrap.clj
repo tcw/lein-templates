@@ -1,6 +1,6 @@
-(ns {{sanitized}}.bootstrap
+(ns {{ns-name}}.bootstrap
   (:require [clojure.java.jdbc :as sql]
-            [{{sanitized}}.config :as conf]))
+            [{{ns-name}}.config :as conf]))
 
 (defn create-table-books []
   (sql/create-table

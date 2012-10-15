@@ -1,4 +1,4 @@
-(ns {{sanitized}}.core
+(ns {{ns-name}}.core
   (:use compojure.core
         stencil.core
         ring.middleware.json-params)
