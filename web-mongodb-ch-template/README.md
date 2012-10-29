@@ -19,9 +19,9 @@ Create a new template with (pulled from clojars automatically)
 ## Usage
 
     NB! mongoDB must be running on localhost and default port. 
-        Uses 'mongo-test-db' as default,
-        removes documents at 'document' and populates it with test data 
-        (so don't have any important data at mongo-test-db.document !!)
+        Uses 'monger-test-db-bootstrap' as default
+        and populates it with test data 
+        (so don't have any important data at monger-test-db-bootstrap.document !!)
 
     $ cd <new project name>
     $ lein deps
